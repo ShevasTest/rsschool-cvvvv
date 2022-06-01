@@ -1,6 +1,6 @@
 # Aleksandr Shevchenko
 
-====
+------
 
 ## Contact information:
 - ***Phone:*** +491718198348
