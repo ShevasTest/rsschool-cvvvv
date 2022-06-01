@@ -1,34 +1,39 @@
-#Aleksandr Shevchenko
-***
+# Aleksandr Shevchenko
 
-##Contact information:
+====
+
+## Contact information:
 - ***Phone:*** +491718198348
 - ***Email:*** klukin2712@gmail.com
 - ***Telegram:*** @Sheva0113
 - ***Viber:*** +380505257698
-***
 
-##About Me:
+====
+
+## About Me:
 I am finishing my last year of bachelor's degree. **My goal is to gain knowledge and experience in programming.** *I am not a junior programmer yet,
 but I really want to become one.*
-***
 
-##Skills:
+====
+
+## Skills:
 - **HTML**
 - **CSS**
-***
 
-##Code Example:
+====
+
+## Code Example:
 ```
 function multiply(a, b) {
   return a * b;
 }
 ```
-***
+====
 
-##Education:
+## Education:
 - **University:** National Trade and Economic University
 - **Faculty:** Economic cybernetics
-***
 
-##English:**A1**
+====
+
+## English:**A1**
