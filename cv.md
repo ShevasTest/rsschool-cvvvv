@@ -30,6 +30,9 @@ function multiply(a, b) {
 ```
 ----
 
+## Project:
+- **HTML-Sololearn**
+
 ## Education:
 - **University:** National Trade and Economic University
 - **Faculty:** Economic cybernetics
