@@ -4,27 +4,29 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #666;
+  background-color: rgb(243, 242, 238);
 }
 /* Nav................................................ */
 header {
-  background-color: rgb(20, 178, 173);
+  background-color: rgb(159, 153, 129);
   top: 0;
   width: 100%;
   text-align: center;
   font-size: x-large;
+  font-family: "Anton", sans-serif;
 }
 nav li {
-  color: #143f24;
+  color: #4e4a41;
   padding: 14px 16px;
   text-decoration: none;
   display: inline-block;
 }
 nav li a {
+  color: rgb(94, 79, 61);
   text-decoration: none;
 }
 nav li a:hover {
-  color: blue;
+  color: rgb(130, 223, 227);
 }
 main {
   font-size: medium;
@@ -38,13 +40,14 @@ main {
   margin: 0 auto;
   margin-top: 50px;
   border: 15px solid;
-  border-color: #666 #1c87c9;
+  border-color: rgb(62, 58, 48) #b6a07a;
 }
 .name {
   text-align: center;
   margin: 20px;
-  color: rgb(2, 21, 237);
-  text-shadow: 2px 2px 5px black, 0 0 1em red;
+  color: rgb(119, 91, 51);
+  /* Тень текста .............................................*/
+  text-shadow: 2px 2px 5px rgb(99, 88, 63), 0 0 1em rgb(134, 123, 101);
 }
 /* Обо мне.......................................... */
 .me {
@@ -57,7 +60,7 @@ main {
   padding: 10px;
   border: 5px solid;
   border-radius: 20px;
-  background-color: cornsilk;
+  background-color: rgb(186, 172, 153);
 }
 /* Скиллы...................................... */
 .skills {
@@ -70,7 +73,8 @@ main {
   padding: 10px;
   border: 5px solid;
   border-radius: 20px;
-  background-color: cornsilk;
+  /* Блоки с текстом........................................... */
+  background-color: rgb(186, 172, 153);
 }
 /* code.............................................. */
 .code {
@@ -83,7 +87,7 @@ main {
   padding: 10px;
   border: 5px solid;
   border-radius: 20px;
-  background-color: cornsilk;
+  background-color: rgb(186, 172, 153);
 }
 /* Проекты............................................... */
 .project {
@@ -96,7 +100,7 @@ main {
   padding: 10px;
   border: 5px solid;
   border-radius: 20px;
-  background-color: cornsilk;
+  background-color: rgb(186, 172, 153);
 }
 .univer {
   display: block;
@@ -108,7 +112,7 @@ main {
   padding: 10px;
   border: 5px solid;
   border-radius: 20px;
-  background-color: cornsilk;
+  background-color: rgb(186, 172, 153);
 }
 .contact {
   display: block;
@@ -120,11 +124,12 @@ main {
   padding: 10px;
   border: 5px solid;
   border-radius: 20px;
-  background-color: cornsilk;
+  background-color: rgb(186, 172, 153);
 }
 footer {
   height: 50px;
-  background-color: rgb(250, 218, 221);
+  /* Цвет нижнеё херни...................................................... */
+  background-color: rgb(137, 199, 210);
   margin-top: 30px;
   padding: 30px;
   display: flex;
@@ -133,5 +138,8 @@ footer {
   line-height: 0;
 }
 .svg {
+  height: 30px;
+}
+.gitlogo {
   height: 30px;
 }
