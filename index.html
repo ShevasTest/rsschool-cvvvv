@@ -4,114 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="assets/img/curriculum-vitae.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,100&display=swap"
-      rel="stylesheet"
-    />
+    <title>CV Sheva</title>
+    <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <img src="assets/img/photo.jpg" alt="my photo" />
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#aboutme" class="nav-link">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#codeexample" class="nav-link">Code Example</a>
-            </li>
-            <li class="nav-item">
-              <a href="#project" class="nav-link">Project</a>
-            </li>
-            <li class="nav-item">
-              <a href="#education" class="nav-link">Education</a>
-            </li>
-            <li class="nav-item">
-              <a href="#english" class="nav-link">English</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contactinformation" class="nav-link"
-                >Contact information</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <!-- HEADER........................................................................... -->
+    <header>
+      <!-- Навигация......................................................................... -->
+      <nav>
+        <ul>
+          <li><a href="#me">About Me</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#proj">Project</a></li>
+          <li><a href="#univer">Education</a></li>
+          <li><a href="#infoxx">Contact information</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="main">
-      <div class="container">
-        <section class="section" id="profile">
-          <h1>Aleksandr Shevchenko</h1>
-        </section>
-        <section class="section" id="Contact information">
-          <h2>Contact information:</h2>
-          <ul>
-            <li>Phone: +491718198348</li>
-            <li>Email: klukin2712@gmail.com</li>
-            <li>Telegram: @Sheva0113</li>
-            <li>Viber: +380505257698</li>
-          </ul>
-        </section>
-        <section class="section" id="About Me">
-          <h2>About Me:</h2>
-          <p>
-            I am finishing my last year of bachelor's degree.My goal is to gain
-            knowledge and experience in programming.<span
-              >am not a junior programmer yet, but I really want to become
-              one.</span
-            >
-          </p>
-        </section>
-        <section class="section" id="Skills">
-          <h2>Skills:</h2>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>TypeScript</li>
-          </ul>
-        </section>
-        <section class="section" id="Code Example">
-          <h2>Code Example:</h2>
-          <code>function multiply(a, b) { return a * b; }</code>
-        </section>
-        <section class="section" id="Project">
-          <h2>Project:</h2>
-          <ul>
-            <li>
-              <a href="https://shevastest.github.io/test1/">School Website</a>
-            </li>
-            <li><a href="https://shevastest.github.io/test/">First Site</a></li>
-          </ul>
-        </section>
-        <section class="section" id="Education">
-          <h2>Education:</h2>
-          <ul>
-            <li>University: National Trade and Economic University</li>
-            <li>Faculty: Economic cybernetics</li>
-          </ul>
-        </section>
-        <section class="section" id="English">
-          <h2>English: A1</h2>
-        </section>
-      </div>
+    <!-- MAIN ........................................................................-->
+    <main>
+      <!-- Фото ...................................................................-->
+      <img class="img" src="assets/img/photo1.jpg" alt="My img" />
+      <h1 class="name">Aleksandr Shevchenko</h1>
+      <!-- Основа .....................................................................-->
+      <section class="me">
+        <h2 id="me">About Me</h2>
+        <p>
+          I am finishing my last year of bachelor's degree. <br />
+          My goal is to gain knowledge and experience in programming. <br />
+          Am not a junior programmer yet, but I really want to become one.
+        </p>
+      </section>
+      <section class="skills">
+        <h2 id="skill">Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>TypeScript</li>
+        </ul>
+      </section>
+      <section class="code">
+        <h2 id="code">Code Example</h2>
+        <code>function multiply(a, b) { return a * b; }</code>
+      </section>
+      <section class="project">
+        <h2 id="proj">Project</h2>
+        <ul>
+          <li><a href="">CV</a></li>
+          <li>
+            <a href="https://shevastest.github.io/test1/">School Website</a>
+          </li>
+          <li><a href="https://shevastest.github.io/test/">First Site</a></li>
+        </ul>
+      </section>
+      <section class="univer">
+        <h2 id="univer">Education</h2>
+        <ul>
+          <li>University: National Trade and Economic University</li>
+          <li>Faculty: Economic cybernetics</li>
+        </ul>
+        <h2>English: A1</h2>
+      </section>
+      <section class="contact">
+        <h2 id="infoxx">Contact information</h2>
+        <ul>
+          <li>Phone: +491718198348</li>
+          <li>Email: klukin2712@gmail.com</li>
+          <li>Telegram: @Sheva0113</li>
+          <li>Viber: +380505257698</li>
+        </ul>
+      </section>
     </main>
-    <footer class="footer">
-      <div class="container"></div>
+    <!-- FOOTER ...............................................................................-->
+    <footer>
+      <p>Shevchenko Aleksandr 2022</p>
+      <a href="https://github.com/ShevasTest?tab=repositories">GitHub</a>
+      <a href="https://rs.school/js/">
+        <img class="svg" src="assets/svg/rs_school_js.svg" alt="rs_school" />
+      </a>
     </footer>
   </body>
 </html>
