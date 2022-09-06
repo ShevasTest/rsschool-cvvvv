@@ -1,1 +1,1 @@
-https://ShevasTest.github.io/rsschool-cv/
+https://ShevasTest.github.io/rsschool-cv/cv
